@@ -1,0 +1,233 @@
+html{
+  height: 1800px;
+  width: 100%;
+  margin: 0px;
+  }
+  header{
+    height: 120px;
+    width: 100%;
+    margin: 0px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    display: inline-flex;
+  }
+  nav{
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+  }
+  img{
+    height: auto;
+    margin-left: 45px;
+  }
+#Myt{
+  width: auto;
+  align-items: flex-start;
+  padding: 5px;
+  margin-left: 30px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+#a{
+  margin-left: 620px;
+  margin-right: 100px;
+}
+nav li{
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 5px;
+}
+nav ul{
+margin-top: 30px;
+padding: 10px 0px;
+align-content: center;
+}
+nav #Myt ul{
+  align-content: center;
+}
+/*-----------------------------------------------*/
+main{
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+h1{
+  align-items: center;
+  padding-top: 5px;
+}
+.mainstory{
+  width: 100%;
+  height: 30%;
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-size: cover;
+  align-items: center;
+}
+.mainstory h1{
+ padding: 5px;
+ margin: 10px;
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
+}
+.row{
+  display:  inline-flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.col-lg-6{
+  height: auto;
+  width: 630px;
+  display:  inline-block;
+  margin: 0px 5px;
+}
+p{
+  font-family: Georgia;
+  font-size: 14px;
+  font-weight: normal;
+}
+h2{
+  font-size: 16px;
+ font-weight: bold;
+}
+.col-md-3 h2{
+  display: block;
+}
+ #col{
+  height: auto;
+  width: auto;
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+}
+.col-lg-6 .col-md-3{
+  padding: 0px 10px;
+}
+#sub-pics{
+  height: 200px;
+  width: auto;
+  margin-top: 5px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-size: cover;
+}
+ #p #sub-pics{
+  margin-bottom: 10px;
+}
+#sub-pics2{
+  height: 200px;
+  width: auto;
+  margin-top: 5px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-size: cover;
+}
+#sub-pics3{
+  height: 200px;
+  width: auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  background-size: cover;
+}
+#sub-pics h3{
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#sub-pics2 h3{
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#sub-pics3 h3{
+  align-items: flex-start;
+  text-align: center;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#col-md-3 {
+ margin: 0px;
+ height: auto;
+ width: 280px;
+ display: inline-block;
+ margin: 0px 15px;
+}
+/*----------------------------------------------!!!*/
+.col-ms-3{
+  height: 210px;
+  width: 250px;
+  display: inline-block;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+  background-size: cover;
+  margin-left: 15px;
+  margin-bottom: 80px;
+}
+.col-ms-3 a{
+  flex-direction: column;
+  display: inline-block;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  }
+.col-ms-3 #news-bites{
+  margin-top: 250px;
+}
+#news-bites h3{
+  text-align: center;
+}
+
+/*---------------------------------------*/
+.flex-container{
+  text-align: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  border: 1px solid pink;
+}
+footer .container{
+  align-items: center;
+  margin-top: 5px;
+  height: 400px;
+  width: auto;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+ul{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 120px;
+}
+#MyT{
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ align-items: center;
+ margin-right: 100px;
+}
+footer a{
+  margin: 5px;
+}
