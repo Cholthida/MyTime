@@ -2,6 +2,7 @@ html{
   height: 1800px;
   width: 100%;
   margin: 0px;
+  background-color: white;
   }
   header{
     height: 120px;
@@ -12,12 +13,17 @@ html{
     font-weight: bold;
     border-bottom: 1px solid black;
     display: inline-flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
   }
-  nav{
+  header nav{
     height: auto;
     width: 100%;
     display: inline-flex;
     align-items: center;
+    position: fixed;
+    z-index:2;
   }
   img{
     height: auto;
@@ -53,9 +59,11 @@ nav #Myt ul{
 }
 /*-----------------------------------------------*/
 main{
-  padding-top: 20px;
+  margin-bottom: auto;
+  padding-top: 145px;
   padding-bottom: 120px;
   background-color: pink;
+  position: relative;
 }
 h1{
   align-items: center;
@@ -198,13 +206,15 @@ h2{
 }
 
 /*---------------------------------------*/
-.flex-container{
+footer .flex-container{
+  display: flex;
   text-align: center;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
   border: 1px solid pink;
+  position: relative;
 }
 footer .container{
   align-items: center;
@@ -216,10 +226,12 @@ footer .container{
   font-family: Verdana;
   font-size: 12px;
 }
-ul{
+footer .container ul{
   display: inline-flex;
+  justify-content:  center;
   align-items: center;
   margin-top: 120px;
+  margin-left: 400px;
 }
 #MyT{
  font-family: Georgia;
@@ -231,4 +243,7 @@ ul{
 }
 footer a{
   margin: 5px;
+}
+h5{
+  text-align: center;
 }
